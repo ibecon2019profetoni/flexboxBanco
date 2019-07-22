@@ -1,0 +1,59 @@
+html{
+    font-family: sans-serif;
+    color: #18231D;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Color_Text_Gris{
+    color: #8E9594;
+}
+.Color_Fondo_Gris{
+    background-color: #EFEFEF;
+}
+
+.Color_Fondo_Turquesa{
+    background-color: #7DC3CF;
+}
+.Color_Fondo_Magenta{
+    background-color: #D2849C;
+}
+.Color_Fondo_Verde{
+    background-color: #93BF43;
+}
+
+/* Estructuras */
+.cajaGris01{
+    padding: 2.5em 2em;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+li{
+    margin: 0 0.5em;
+}
+.cajaGris__circulo{
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.cajaGris__numeros{
+    flex-shrink: 0;
+}
+.cajaGris__texto{
+    flex-grow: 1;
+}
+.cajaGris__texto__caracteristicas{
+    font-weight: normal;
+}
+.cajaGris__texto__caracteristicas::before{
+    content: '💻';
+    color: #93BF43;
+    font-size: 0.8em;
+}
+.cajaGris__flecha{
+    flex-shrink: 0;
+    align-self: center;
+}
